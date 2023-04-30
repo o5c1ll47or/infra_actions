@@ -53,4 +53,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: o5c1ll47or/infra_actions:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/infra_actions:latest
